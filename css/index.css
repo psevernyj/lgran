@@ -158,6 +158,23 @@
       color: #ffc901;
       font-size: 4rem; }
 
+.section_3 {
+  background-image: url("../img/section_3/section_3_bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section_3 .title .heading_paragraph {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: initial;
+    margin: 9rem; }
+    .section_3 .title .heading_paragraph::before, .section_3 .title .heading_paragraph::after {
+      content: url("../img/section_3/text_icon.png");
+      padding: 0 5rem; }
+
 * {
   margin: 0;
   padding: 0; }
