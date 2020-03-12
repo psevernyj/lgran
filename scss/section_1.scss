@@ -1,0 +1,45 @@
+.section-1 {
+  background-image: url("../img/section_1/section_1_bg.png");
+  background-size: cover;
+  max-width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .section_1_container{
+    width: 55%;
+  }
+
+  .heading_paragraph {
+    text-transform: uppercase;
+    font-size: 6.2rem;
+    font-weight: lighter;
+    margin: 10rem 5rem;
+    .span_logo {
+      font-family: Atma;
+    }
+
+    &::before, &::after{
+      content: url("../img/section_1/text_icon.png");
+      padding: 0 5rem;
+    }
+  }
+  .paragraph{
+    font-family: Overpass;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin: 20rem 5rem;
+  }
+
+  .heading_paragraph_4{
+    font-family: Overpass;
+    font-weight: lighter;
+    font-size: 4.5rem;
+    margin: 10rem 10rem;
+
+    .span{
+      color: #ffc901;
+
+    }
+  }
+}
